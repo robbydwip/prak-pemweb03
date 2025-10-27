@@ -10,10 +10,12 @@ import {
   SiAdobephotoshop,
   SiCoreldraw,
 } from "react-icons/si";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black text-white flex flex-col items-center justify-center px-6 py-12">
+    <main className="min-h-screen bg-gradient-to-r from-blue-500 to-navy-500 text-white flex flex-col items-center justify-center px-6 py-12">
+      <Navbar />
       {/* FOTO */}
       <Image
         src="/Foto profil.jpg"
